@@ -2,17 +2,20 @@
 #include<string.h>
 #include<fstream>
 #include<sstream>
-#include<set>
 #include<map>
-#include<list>
+
 
 using namespace std;
 
 
 int main(){
 
+    cout<<endl;
+
     string str_buf;
     fstream fs;
+   
+    //multimap을 이용하여 언어를 key로 사용하는 map과 이름을 key로 사용하는 map을 각각 만듦
 
     multimap<string, string> mapA;
     multimap<string, string> mapB;
@@ -27,10 +30,10 @@ int main(){
         istringstream ss(str_buf);
 
         while(getline(ss,buff,',')){
-            if(count ==1)
+            if(count ==1) //이름
                 k = buff;
-            if(count==2){
-                mapA.insert(pair<string, string>(k,buff));
+            if(count==2){ //언어
+                mapA.insert(pair<string, string>(k,buff)); //각각의 쌍을 map에 insert
                 mapB.insert(pair<string, string>(buff,k));
             }
             count++;
@@ -57,8 +60,8 @@ int main(){
     multimap<string, string>::iterator ita = mapA.begin();
     int p_count = 0;
     for(; ita !=mapA.end(); ita++){
-        if(ita->first.front()=='i'){
-            if(ita->second.compare("Python") == 0){
+        if(ita->first.front()=='i'){ //string의 front함수는 해당 문자열의 첫글자를 가져옴
+            if(ita->second.compare("Python") == 0){ //python과 일치하면 0을 반환함
                 //cout << ita->first << " "<<ita->second <<endl;
                 p_count++;
             }
@@ -68,11 +71,11 @@ int main(){
 /////////////////////////////////////////////////////////////////
 
 
-    multimap<string, string>::iterator itb = mapB.begin();
+    ita = mapB.begin();
     int c_count =0;
-    for(; itb !=mapB.end(); itb++){
-        if(itb->first == "C"){
-            if(itb->second.size()>=20){
+    for(; ita !=mapB.end(); ita++){
+        if(ita->first == "C"){ //언어를 key로 하여 검색 
+            if(ita->second.size()>=20){
                 //cout<<itb->first <<"  "<< itb->second <<endl;
                 c_count++;
             }
