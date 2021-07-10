@@ -43,7 +43,7 @@ int main(){
 
 ///////////////////////////////////////////////////////////////
 
-    auto it = mapA.find("redis"); //radis가 2개엿음;
+    auto it = mapA.find("redis");
     if(it == mapA.end()){
         cout<<"not found";
     }
