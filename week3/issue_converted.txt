@@ -1,0 +1,1748 @@
+((uphone)) fixed #315
+((uphone)) fixed #293
+((iphone)) fix bug of install-templates.sh
+((uphone)) fixed #293
+((uphone)) fixed #308
+((android)) issue #268
+((android)) Frame controlling on android
+((uphone)) 
+((uphone)) change the parameter order of function setResource
+((android)) fix a bug of playEffect
+((Android)) fix compiling issue under linux
+((uphone & win32)) Fix the bug of new project wizard.
+((iphone)) fixed Bug345
+((uphone)) Support wrap when the dimensions is specified in CCLabelTTF.
+((uphone)) fixed #340
+((android)) support jpg on android
+((android)) refactor platform_support
+((uphone)) fixed #357
+((android)) autoscale HVGA resource to WVGA
+((android)) move Application to cocos2dx/platform/ccxApplication
+((uphone)) fixed #370
+((wophone)) fixed #377
+((wophone)) fixed #383
+((wophone)) fixed #383
+((wophone)) fixed #377
+((wophone)) fixed #386
+((android)) fix some bug and remove unnedded files
+((android)) fixed #356
+((android)) fix the bug that HelloWorld crashed when touchting the screen.
+((ios)) change the template
+((ios)) fixed #419
+((android)) fixed #422: multitouch for android
+((android)) fixed #367: make the compiling sequece of HelloWorld and tests 
+((android)) fixed #440: CCMessage works ok on android
+((android)) #443 implemented CCKeypadDelegate on android
+((ios)) fixed #349
+((airplay)) fix "pointer touches" mistakes on devices
+((android)) fix some bugs of cocosdenshion
+((android)) fixed #453: cocosdenshion can replace the background music
+((android)) implemented CCUserPreferences
+((android)) fixed #374
+((android)) fixed typo in CCEGLView method name
+((android)) fixed #462
+((ios)) tests add RootViewController for rotate with ui object.
+((android)) fixed #477: set default ndk version to ndk-r5
+((iOS)) Modify the template files for XCode.
+((wophone)) Use Sys_SchedYield to control the FPS, instead of Sys_Sleep.
+((iOS)) fixed #477: force exit HelloWorld when x button is clicked
+((wophone)) Modify the wophone Makefile.ARM for the CCUserDefault.
+((android)) fixed #470: use GAME_ROOT instead of HELLOWORLD_ROOT
+((Android)) CCUserDefault works ok on android2.2
+((win32)) fixed #492
+((android)) fixed #494: fix a wrong function name
+((android)) fixed #495: fix a memory leak
+((android)) fixed #496 fixed #497
+((android)) let user input package path when create new android project
+((android)) fixed #510
+((Android)) Use Android widget Bitmap to drawing string
+((Android)) line break ok on Android
+((Android)) Exit program when key back is entered
+((Android)) Totally fix the problem of drawing text
+((iOS)) fixed #538: add template of lua for xcode3
+((Android)) modify android template to work on new codes
+((iOS)) fixed #546
+((Android)) fixed #547: line wrap OK on Android
+((Android)) fixed #549: Add comments for playEffect()
+((android)) fixed #577: init member variable to default value
+((airplay)) incorrect calculation of the bit depth
+((airplay)) fix - it solves the problems related to incorrect memory allocation..
+((Android)) break string & wrap word
+((win32)) modify for vs2010
+((win32)) modify configuration of vs2101 release version
+((android)) fixed #610: remove the support of ndk-r4
+((android)) fixed #609: retain & release obj in CCSet
+((win32)) fixed #620: change the output of lua to a lib
+((win32)) add Texture2DTest to vs2010
+((android)) fixed #624: insert white space in front of \n
+((android)) fixed #623: refactor Cocos2dJni.cpp
+((android)) fixed #631: Send \n to engine when user input nothing
+((android)) fixed #625
+((android)) fixed #652: refactor JniHelper::jstringtochar()
+((android)) fixed #655: fix a bug that CCLabelTTF lost the last characters
+((android)) swap axes according to the orientation
+((iOS)) fixed #667
+((android)) fixed #683
+((android)) fixed #670
+((iOS)) fixed #693: CCLabelTTF support line break with \n
+((android)) copy files from Resources
+((android)) fixed #688: support reading file other than apk
+((WIN32)) Enabled retina. Updated the implementation of fullPathFromRelativePath.
+((android)) Cocos2dxBitmap.java divideStringWithMaxWidth() has a missing leading text bug
+((Gles20)) Minor changes to comments (English Spellings, etc.)
+((linux)) font rendering enhancements
+((template)) modify AppController, add viewController & window variant. al...
+((iOS)) Add setMute and isMuted function to SimpleAudioEngine
+((Gles20)) Silenced minor deprecation warning.
+((1)) Fixed some compilation error for win32 platform.
+((gles20)) Minor memory-logic error.  Used in user templates.
+((Lua)) fix CCActionInterval, CCFiniteTimeAction, CCAction declare
+((cocos2d-x 2.0.3)) CCGrabber/CCEGLView issue for Win32
+((Marmalade fix)) Added development.icf for HelloCpp. Added Marker Felt.ttf for SampleGame.
+((android)) Cocos2dxHelper/CCFileUtils JNI fixes and improvements
+((scripting)) add CCNode::scheduleUpdateWithPriorityLua()
+((lua)) remove current schedule before register new script schedule
+((luabinding)) make CCAssert compatible Lua
+((luabinding)) make CCEditBox compatible Lua
+((luabinding)) add CCDirector::setDisplayStats()
+((luabinding)) fix CCAssert Lua compatibility
+((Linux)) fixed loading truetype fonts from resource directory
+((Linux)) fixed horizontal font alignment
+((Linux)) add cache for font family -> font path mapping
+((Linux)) fixed font rendering artifacts, added simple line break
+((WIN32)) Fixing compilation errors for TestJavascript and WatermelonWithMe.
+((iOS)) Using system font by `[UIFont systemFontOfSize]` when font name wasn't found.
+((iOS)) Using system font by `[UIFont systemFontOfSize]` when font name wasn't found.
+((iOS)) Updating ccbi files of js template.
+((VS2012)) Adding dependence for AssetsMangerTest.
+((Android)) CCClippingNode is not working after apps comes from background
+((Linux)) fixed font rendering crash for certain fonts
+((Linux)) CCFileUtils::init() - Buffer size for readlink
+((TestLua)) The menu item of Tests which is not supported will be disabled.
+((PLUGIN)) Removing the bindings glue codes for CCApplication since it was bound in cocos2dx.
+((HelloLua)) print ~> cclog
+((Linux)) Updating template of multi-platform-cpp
+((iOS)) Template fix.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Travis CI)) Using linux by default. [ci skip]
+((Travis)) Adding Real email info for git. [ci skip]
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((FIX)) Corrected CCSpriteFrameCache and CCSprite with trimmed textures
+((FIX)) CCSprite and CCSpriteFrameCache work with trimmed textures
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Android)) use onWindowFocusChanged(bool) instead of onResume()/onPause()
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Android)) Doing so may leave the black screen when you return the app.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((iOS)) Fixing compilation errors for HelloLua.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Android)) Only ignore warning of 'invalid-offsetof' in the library of spidermonkey.
+((Android)) Ignoring a warning of 'invalid-offsetof' in the library of spidermonkey. [master]
+((master)) Some fixes
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((iOS)) Enabling multiple touch event for TestJavascript, multi-platform-js, multiplatform-lua.Disabling multiple touch event for multi-platform-cpp.
+((iOS)) [develop] Enabling multiple touch event for TestJavascript, multi-platform-js, multiplatform-lua.Disabling multiple touch event for multi-platform-cpp.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((master)) Fix flags for debugger server socket, works on iOS and Android.
+((BB)) Updating project configuration.
+((Tizen)) Add libwebsockets and support C++11
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((develop)) new CCLabelTTF (static) create with fontDefinition method, and new CPP test using it
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((develop)) Minor fix for CCSprite::draw(), checking whether texture is valid, if it's invalid, don't set the attribute for it.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Android)) cocos2d-x 2.1.3 CCUserDefault lost
+((Android)) SimpleGame doesn't depend on extension now.
+((Android)) Don't use c++11 feature in OpenSLEngine.cpp. [iOS] Adding i386 arch for MoonWarriors.
+((master)) Crash fix in CCControlColurPickerTest.
+((win32)) Updating TestLua.
+((Tizen)) Updating project configurations.
+((Win32)) Deleting vs template, please use 'tools/project-creator' to create multi-platform project instead.
+((Android)) Updating multi-platform-lua/proj.android/.project
+((Template)) Updating multi-platform template.
+((emscripten)) Updating extension makefile.
+((travis-ci)) Speed up android build. [master]
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Tizen)) Add armv7l webp library.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Tizen)) Enable Hardware Acceleration.
+((Tizen)) Implement Accelerometer
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((emscripten)) Merge PR https://github.com/cocos2d/cocos2d-x/pull/2919
+((iOS)) [Marmalade] Compilation errors fix after merging https://github.com/cocos2d/cocos2d-x/pull/2919
+((Win32)) Deprecating VS2010, removing unused template files.
+((android)) CCEditBox crash! (version: cocos2d-x-2.1.4)
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Tizen)) Fix compile error
+((Win32)) undef MessageBox since it will be conflicted with cocos2d::MessageBox.
+((Win32)) Adding COCOS2D_DEBUG=1 for liblua project. Adding missing files in liblu...
+((Tizen)) Fix compile error
+((win32)) MciPlayer replaced with DirectSound
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((plugin-x)) [Umeng] fix not sending Event when paramMap is nil
+((Windows)) Fixing complication errors for WINDOWS.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Tizen)) Fix compile error
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Mac)) Adding resources for SimpleGame.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Win32)) Removing bindings-generator support, since the clang3.3 of windows can't work with c++11 well, I don't know why, so disable win32 support temporary.
+((JSB)) Mark cc.TMXTiledMap.propertiesForGID to deprecated method.
+((Android)) Fixing build errors for ndk-r9.
+((emscripten)) Fixing compilation errors.
+((Tizen)) Fix compile error
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Tizen)) Fix Debug Settings
+((Tizen)) fix acceleration wrong coordinates.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Tizen)) Enable LocalStorage
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Tizen)) Update project files
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((NaCL)) Add missing include of <sys/mount.h>
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((2.1.5)) Fixing critical bugs those were resolved at v3.0.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Tizen)) Update project files
+((Android)) Disabling x86 from APP_ABI. Otherwise the time of compiling will be very long.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((master)) Adding Armature JS Bindings.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((develop)) Warning fixes.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((For Discussion and Review)) New Event Dispatcher
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((New Event Dispatcher)) Using rename registerEventListener to addEventListener, unregisterEventListener to removeEventListener.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((GUI)) Merge PR https://github.com/cocos2d/cocos2d-x/pull/3613
+((GUI)) Fixing compilation errors for win32. 
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((iOS, Mac)) Adding resources of CocoStudio GUI Test.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((jsb)) Marks cc.Menu.setHanlderPriority as deprecated method. Bug fix in JSTouchDelegate class.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((win32)) glfw keyboard callback is enabled now. Enables KeyboardTest for win32.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Mac)) Updating the window size for JS games and updating JS-Test.
+((Win32)) Updating the window size of JS-Games to 480x720.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((iOS JS)) Fixing JS build fails.
+((master JSB)) Bind CCControlXXX classes.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((master)) JSB fixes after changing the JS-Test submodule URL.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((master)) Don't use c++11 feature in master branch.
+((master)) Fix of variable assignment when using CCB and JSB.
+((master)) Updating Bindings-generator.
+((master)) iOS JSB project fixe and update JS-Test.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((master)) Marmalade fixes
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((master)) Windows compilation fix.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((master)) Updating BlackBerry project configurations and fixing multi-platform-lua could not find lua scripts.
+((master)) Merged from develop: JSC and JS file loaded order changed. (STRAT --> check JS --> check JSC) TO (START --> check JSC --> check JS).
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((master)) [JSB] Bind cc.Armature.getShapeList and setBody.
+((master)) A warning fix in CCLuaEngine.cpp.
+((master)) BB only supports .ogg and .wav sound format. So add comment in CocosDenshionTest.lua to prompt developer to change sound format for Blackberry.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((master)) Update JS-Test. Disable TestColliderDetector for JSB temporarily
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((master)) Adding package-maker tool.[ci skip]
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((master)) Fixing a compilation error for Mac port after merging WIN8 RT &WIN PHONE8 codes.
+((master)) Removing unused variable, otherwise, it will trigger compilation error on linux.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Win32)) Fixing compilation errors after renaming 'CocosDenshion' to 'audio'.
+((JSB master)) Fixing crash of invoking 'cc.registerStandardDelegate'.
+((fix)) VS2012 
+((JSB)) Fixing compilation errors for iOS and Mac projects.
+((sp v25)) Updating SpiderMonkey library to FFv25.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Bindings)) Skip Label::getLettersInfo
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Android)) Updating Android.mk for JSB projects.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((android)) update nativeactivity.cpp to work with changes made in commit ...
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Linux)) compilation fix for PR #4099
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((LINUX)) Adding template CMake files for linux.
+((Win32)) fix compile error.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((master)) Updating bindings-generator.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((develop)) Updating bindings-generator, fixing forward declare that gener...
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((master iOS)) Adding missing files in TestJavascript.
+((Blackberry)) Fixing Lua project compilation errors.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((master)) Update auto-generated binding code manually.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Critical BUG FIX)) closed #3224: The subthread of CCHttpClient interrupts main thread if timeout signal comes.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Sync from develop branch)) closed #3224: The subthread of CCHttpClient interrupts main thread if timeout signal comes.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Tizen)) Add project template.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((master)) A memory leak fix when loading JSC file.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((scripting)) Adds conversions for ssize_t.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Win32)) fix compile error.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((scripting)) Ignores Director::getRenderer for bindings.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Scripting)) Supports to bind more container: std::vector<std::string>, std::vector<int>, cocos2d::Map<std::string, T>.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((LUA)) Removes CCCameraDeprecated table in Deprecated.lua.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Lua Binding)) Supports to bind more container: std::vector<std::string>, std::vector<int>, cocos2d::Map<std::string, T>
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((JSB)) long —> ssize_t in JSB_TableViewDataSource::callJSDelegate.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((master)) Compilation error fix of studio binding.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((JSB)) Adds trigger bindings for CocoStudio.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((JSB)) Adds cc.VisibleRect and updates JS-Test submodule
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((JSB)) Adds cocostudio trigger jsbinding for master branch.
+((Win32)) Update project files.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Android)) Adds jsb-spine module. TestJavascript now depends on jsb-spine module.
+((Jenkins)) fetch pull request and checkout to a local branch
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((ci skip)) Updates TestLua project for iOS and Mac.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((develop)) Updates JS-test submodule
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((jenkins)) Add create-job.py:create build job by pr, build all android targets
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Jenkins)) fix symbol link create error
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((JSB)) Fix for SpineTest didn’t show anything. Skeleton uses new renderer...
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Spine)) Saves old transform matrix in Skeleton::draw, uses it in ::onDraw.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((jenkins)) add job trigger,to update github pull request status instantly
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((jenkins)) decode 'payload' to utf-8 and ignore invalid bytes
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((jenkins)) do not mix github access token with jenkins job trigger token
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Win32)) fix localStorageGetItem crash when column text is NULL.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((jenkins)) add post build script
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Jenkins)) fix jenkins api, get correct build result
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Jenkins)) add auto generate bindings for win7
+((Jenkins)) fix the path in gen_jsb_win32.bat
+((jenkins)) add ios build script
+((Jenkins)) add missing double quotes in pull-request-builder.py
+((Jenkins)) fix the url of build description
+((Jenkins)) add win32 build in pull-request-builder.py
+((JSB)) cc.Node.setLocalZOrder -> cc.Node.setZOrder.
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Jenkins)) remove exit button in TestCpp
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Jenkins)) only develop branch build is supported for win7
+((Jenkins)) add create-template-project.py
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Travis-CI)) Removes openmw ppa since we’re using glfw3 rather than sdl2.
+((jenkins)) To add ios build support:fix xcodebuild stackoverflow, add shared build schemes
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Jenkins)) fix build path
+((AUTO)) : updating tools/project-creator/module/cocos_files.json
+((AUTO)) : updating tools/project-creator/module/cocos_files.json
+((AUTO)) : updating tools/project-creator/module/cocos_files.json
+((AUTO)) [ci skip] : updating tools/project-creator/module/cocos_files.json
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) [ci skip] : updating tools/project-creator/module/cocos_files.json
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) [ci skip] : updating tools/project-creator/module/cocos_files.json
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) [ci skip] : updating tools/project-creator/module/cocos_files.json
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) [ci skip] : updating tools/project-creator/module/cocos_files.json
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) [ci skip] : updating tools/project-creator/module/cocos_files.json
+((Jenkins)) fix pending url
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) [ci skip] : updating tools/project-creator/module/cocos_files.json
+((AUTO)) [ci skip] : updating tools/project-creator/module/cocos_files.json
+((master)) CurrentLanguageTest also tests Dutch. Fix compilation error on Linux and nativeclient.
+((AUTO)) [ci skip] : updating tools/project-creator/module/cocos_files.json
+((AUTO)) [ci skip] : updating tools/project-creator/module/cocos_files.json
+((AUTO)) [ci skip] : updating tools/project-creator/module/cocos_files.json
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) [ci skip] : updating tools/project-creator/module/cocos_files.json
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) [ci skip] : updating tools/project-creator/module/cocos_files.json
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) [ci skip] : updating tools/project-creator/module/cocos_files.json
+((EventDispatcher)) Adds 'pauseEventListenersForTarget', 'resumeEventListenersForTarget' and 'removeEventListenersForTarget'.
+((jenkins)) Add [ci rebuild] command via pr comments
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Jenkins)) To test [ci rebuild] command (do not merge)
+((Jenkins)) fix the url of repos
+((Jenkins)) remove unused code
+((travis ci)) Adds 'for-each-file-in-dir.sh' for generating file list in cocos2d. CocosRobot will send a PR for that change.
+((travis ci)) Uncomments '.generate-cocosfiles.sh'.
+((AUTO)) [ci skip] : updating tools/project-creator/module/cocos_files.json
+((travis ci)) Updates generate-cocosfiles.sh.
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Jenkins)) fix android build
+((Jenkins)) add linux build
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((jenkins)) add mac build script
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((Jenkins)) fix the crash in comment trigger
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((Jenkins)) Add watchdog job, to check & kill dead buid
+((win32)) HelloCpp -> cpp-empty-test, HelloLua -> lua-empty-test.
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((travis ci)) Sort file list in generate-template-files.py.
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((Jenkins-watchdog)) check & kill dead buid
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((Jenkins)) Add xcode shared build sheme
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((jenkins-watchdog)) update
+((Jenkins)) make build fail when submodule update fail
+((AUTO)) : updating luabinding automatically
+((Jenkins)) build all samples on android
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((Jenkins)) fix xcode shared build sheme
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((Jenkins)) Fixing bugs of genbindings-win32.bat
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((Jenkins)) Add master build in pull-request-builder.py
+((master)) Fix compilation errors in TestCPP for marmalade port.
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((Jenkins)) Clean workspace after build finish
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((Jenkins-watchdog)) add the time of single job
+((add-socketio-jsb)) implement fireEventToScript method to integrate JSB e...
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((ci)) Updates travis scripts. git diff compared with origin/develop
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((ci)) Updates travis scripts. only commit relevant folder.
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((Jenkins)) Make build as failed when git fetch is failed
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((Jenkins)) Make build as failed when generating bindings fails
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((Jenkins)) Add return value in genbindings-win32.bat
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating submodule reference to latest autogenerated bindings
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((Jenkins)) [ci skip]: add jenkins job configs
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((Jenkins-watchdog)) remove extra build_time()
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((Jenkins)) [ci skip]: Monitor jenkins queue build
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((android)) Adds onActivityResult listeners
+((Jenkins)) [ci skip]: Modified the return value when git fails, it's used for `ci rebuild`.
+((FIX)) : HTTPClient should not report 2xx status codes as errors!
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((ci skip)) , fix android part in cocos-console-test.py.
+((win32)) Fix typo in cocos2d_(winrt_|wp8_)headers.props, gui -> ui
+((Jenkins)) [ci skip] Add rebuild when git fail in pull request builder
+((ci skip)) , add close app in autotest.py
+((AUTO)) : updating luabinding automatically
+((ci skip)) , add emptytest.py
+((AUTO)) : updating luabinding automatically
+((Jenkins)) [ci skip] Create and save cpp-empty-test apk for autotest
+((Jenkins)) [ci skip] Add [ci emptytest] command
+((Jenkins)) [ci skip] Fix ftp home in upload_apk.sh
+((Jenkins)) [ci skip] Fix 'localfile' parameter
+((Jenkins)) [ci skip] Comment result of emptytest
+((Jenkins)) [ci skip] Fix the permission of upload_apk.sh
+((jenkins)) Add execute permission
+((Jenkins)) [ci skip] Add android.permission.INTERNET to cpp-empty-test
+((Jenkins)) [ci skip] Fix result comment body of Emptytest
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((ci skip)) , add get android device infomation in emptytest.py.
+((lua-tests)) fix two bugs found in the testing 
+((Jenkins)) [ci skip] Add [ci release xxx] command
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((ci skip)) , add ssh upload file  in emptytest.py.
+((Jenkins)) [ci skip] Change 'payload' to 'tag'
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((Jenkins)) [ci skip] Fix branch to v3 v2
+((ci skip)) , emptytest can run in closed pr.
+((Jenkins)) [ci skip] Catch exception in check_queue_build
+((Jenkins)) [ci skip] Check pull request title to skip build
+((AUTO)) : updating luabinding automatically
+((ci skip)) Fix search path for lua scripts in subdirectories
+((ci skip)) Fix for RenderTexture stretching/low-quality when creating a RenderTextu...
+((ci skip)) Texture async loading leak fix
+((ci skip)) fix the bug that the manual binding codes for  `MenuItemImage:: create` missing the judgment  of parameter number
+((ci skip)) Update CCActionInterval.cpp
+((ci skip)) Spine runtime update
+((ci skip)) Fix in Renderer to support PingPong (multi step) RenderTexture usage.
+((ci skip)) Fixed bug with cascade opacity and color for control button. #4881
+((ci skip)) Detaching current thread in JNIHelper
+((ci skip)) Update Android.mk
+((ci skip)) 'BaseData helpParentNode' should not be a global variable, define it in the relevant functions instead.
+((ci skip)) autotest support: add autotest list and count command
+((ci skip)) Bug fix in box2d.
+((ci skip)) clear exception flag after each jni call
+((ci skip)) Skip a frame if there is no action updated or event dispatched
+((ci skip)) Get cache dir
+((ci skip)) Extended Tiled Map: Render background.
+((ci skip)) Fixed a crash when tmx-map not have any tiles.
+((ci skip)) Fixed a runtime error when tmx-file does not contain the tiles.
+((ci skip)) closed #4577: With ParticleSystem::PositionType::FREE mode, The emitted ...
+((ci skip)) physic object is still drawn on screen after destroyed
+((ci skip)) Auto culling support for Label class
+((ci skip)) Remove un-needed error checking to improve performance
+((ci skip)) Eclipse project fixes & improvements
+((ci skip)) Batching of Label rendering.
+((ci skip)) Don't warn about missing file for URLs
+((ci skip)) Add New API replaceToRootScene for Director
+((ci skip)) fix Button touch event wihin an invible parent; and really support Enabl...
+((ci skip)) add ParticleSystemQuad overloaded 'create' method and add the corresponding test.
+((ci skip)) add screenshot and corresponding test.
+((ci skip)) HttpClient - add static method to enable and disable ssl support
+((ci skip)) Fix ControlButton zoom
+((ci skip)) fix for sub pixel rendering problem of Labels (Bug #4503)
+((ci skip)) show TextureCache size stats
+((ci skip)) remove unused code
+((ci skip)) tracking memory allocations, to assist memory-leak-detection
+((ci skip)) fix node movement from one parent to another
+((ci skip)) software pvr decompression support
+((ci skip)) touches improvement like apple UIEvent getAllTouches
+((ci skip)) resolve #4390
+((ci skip)) Fixes mismatched location of GLFW includes on some Linux distributions
+((ci skip)) Correct an error in README
+((ci skip)) Develop nutty modify framework for315 modifymethodname
+((ci skip)) fix: debug draw remains after remove the last PhysicsBody.
+((ci skip)) -Fixed an issue in HttpClient where calling destroyInstance and then usi...
+((ci skip)) [jenkins] add mac build script
+((ci skip)) Fix DrawNode#init
+((ci skip)) update
+((ci skip)) Corrected some typos in the template
+((ci skip)) fix CCConsole linux crash
+((ci skip)) Fix LableBMFont is not use padding
+((ci skip)) To solve the problem of rendering blocking for vsync "storm".
+((ci skip)) Support both touchdown and select events in listview
+((ci skip)) Enable correction for left-rotated sprites.
+((ci skip)) Refactor UIButton and Enable Direct Setting of Sprite Frames.
+((ci skip)) Convert all types of Value to appropriate ns object
+((ci skip)) Fixed Texture2D::initWithData setting contentSize
+((ci skip)) Improves TMXTiledMap::getPropertiesForGID, removes "bool getPropertiesForGID(int GID, Value** value);".
+((ci skip)) add Gleed2D editor support
+((ci skip)) Better handling of invalid shaders.
+((ci skip)) Updated CCImage.cpp to resolve failure to load custom fonts from ttf file on windows
+((ci skip)) use ${PARENT-1-PROJECT_LOC}  to setup android proj Linked Resources relative to the .project file;
+((ci skip)) setScissorInPoints should also be called even if two ScissorRect doesn't intersect
+((ci skip)) Added ability to pop scene with transition
+((ci skip)) Matrix multiplication fix
+((ci skip)) Delete Texture2D::initWithData() unneeded parameter "width" and "height".
+((ci skip)) Change the place which function adjustTextFieldPosition was called at
+((ci skip)) fix issues #3329 ,see this :http://www.cocos2d-x.org/issues/3329
+((ci skip)) Create dir that package is saved to
+((ci skip)) Added QtCreator project for Linux and Windows (MinGW)
+((ci skip)) Websockets with SSL
+((ci skip)) LabelTTF have now shadow-color
+((ci skip)) Fix a collision detection bug at TableView
+((ci skip)) Calling "VolatileTexture::addImage" is forgot.
+((ci skip)) Update FmodAudioPlayer.cpp
+((ci skip)) Fix NSNotificationCenter and NSTimer leaks.
+((ci skip)) CCRects converted with jsb does not create origin/size properties
+((ci skip)) HttpClient: set CURLOPT_ACCEPT_ENCODING if Accept-Encoding found in request headers
+((ci skip)) TMXXMLParser support for object 'rotation' property
+((ci skip)) add "speed" to CCBAnimationManager, and relative test code
+((ci skip)) moved registering of temporary font out of old font deletion check
+((ci skip)) Qt 5: fix TestCpp build, added support for mouse and keyboard events
+((ci skip)) Adding popSceneBack() function to Director
+((ci skip)) CocosDenshion now build as project with unicode
+((ci skip)) Adding 'the greatest change.' 
+((ci skip)) Text shadow cropping fix
+((ci skip)) add loadModule
+((ci skip)) Clear error message buffer before request.
+((ci skip)) Corrected code to use textDefinition properties
+((ci skip)) [win32]MciPlayer replaced with DirectSound
+((ci skip)) Adding ability to get nextFrame of an animation.
+((ci skip)) Get rid of unwanted logs entries
+((ci skip)) Rendertexture async save
+((ci skip)) fix the strange behavior when repeat CCJumpTo
+((ci skip)) Support for play sound effect with pitch , pan, gain
+((ci skip)) CCScrollView: 2-finger-pinch/zoom buggy, so disabled it
+((ci skip)) Memcpy change submit to develop branch
+((ci skip)) [FIX] CCSprite and CCSpriteFrameCache work with trimmed textures
+((ci skip)) , modify android apk name in cocos-console-test.py.
+((Lua)) The array stores Vector2 element should use `new[]` and `CC_SAFE_DELETE_ARRAY` to alloc/ free memory
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((hot fixed)) closed issue#4999:fixed label is unsharp if it's created by smaller font.
+((ci skip)) , not add close menuItem in test empty-test.
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((Jenkins)) [ci skip] Check external file to support build
+((Jenkins)) only to test, dont merge
+((Jenkins)) [ci skip] Fix copy logic of current_3rd_libs
+((Jenkins)) Only to test v2 build in jenkins, do not merge
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((v2)) Adds 'ccs-res' submodule for storing CocoStudio resources, use the same version as v3 branch
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((v2)) issue #4660: Uses utf8/16 conversion in llvm3.4
+((V2)) Fixed LabelTTF have black border on WP8/WINRT.
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((Jenkins)) [ci skip] Fix sdk version of generated tests apks
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((Jenkins)) [ci skip] Add lua-runtime-bin to support pull request build
+((Jenkins)) Only to test v3 branch
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((ci skip)) The tool of making package supports to insert the content of another zip file
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((Jenkins)) [ci skip] Add error commit status for cancel build in queue
+((v2)) Updates HelloLua and TestLua vs project, they don't depend on libBox2D and libchipmunk.
+((AUTO)) : updating luabinding automatically
+((ci skip)) , modify v3!=v2 about config.json.
+((Jenkins)) [ci skip] Add external lib to ci release build
+((ci skip)) , set v2-branch different variable in pull-request-builder.py.
+((AUTO)) : updating luabinding automatically
+((ci skip)) ,for stupid error in equal 
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((ci skip)) , modify build-job termination time.
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((android)) Adds a virtual method for loading native libraries.
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((ci skip)) , modify job-trigger.py requests.
+((ci skip)) , comment-trigger-request
+((ci skip)) , post-build-request
+((ci skip)) , add request-proxies in pull-request-builder.py.
+((ci skip)) , modify request proxies in post-build.py and so on.
+((Jenkins)) [ci skip] Add check slave online status to watchdog
+((ci skip)) QA rlease for v3.1, do not merge
+((Jenkins)) [ci skip] A missing import to ci-release-test.py
+((Jenkins)) [ci skip] Fix external lib to support ci release
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((Jenkins)) [ci skip] Fix the path of android public project
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((ci skip)) , add reboot.py in jenkins-scripts.
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((Jenkins)) [ci skip] Remove upload apks to another slave, just save it in local
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((hot fixed)) issue#4999:fixed label is unsharp if it's created by smaller font.
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((Jenkins)) [ci skip] Add rebuild jobs to watchdog.py
+((ci skip)) [jenkins]move http proxy address to jenkins configuration
+((Jenkins)) [ci skip] Fix proxy address to jenkins config
+((Jenkins)) [ci skip] Fix proxy address in post-build.py
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((ccconsole)) Add version command.
+((AUTO)) : updating luabinding automatically
+((ci skip)) Set github commit status context & description
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((ci skip)) Send email notification if pull request build fail
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((ci skip)) update travis ci to use ndk-r9d
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((ci skip)) [jenkins]record size of libcpp_empty_test.so to database
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((FIX)) : copied data should be const
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((ci skip)) [jenkins]add android dailybuild script, records all built libs to database
+((AUTO)) : updating luabinding automatically
+((ci skip)) [jenkins]merge pull request to latest baseline before build
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((Don't merge)) New Audio Engine API
+((ci skip)) send email to report build result
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((ci skip)) [jenkins]add script to check pull request status, if not set, rebuild it automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((ci skip)) [jenkins]Avoid connect to database repeatly
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((jenkins)) Tracking lib size for pull request build
+((jenkins)) [ci skip]fix ci skip mal-function
+((ci skip)) Fix Jenins pull request build script
+((jenkins)) fix lua project path
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((ci skip)) [jenkins]Add script to track android built libs size
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((CCConsole)) Add auto connection and remote control from another device
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((WP8)) Fixed default search path
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((WP8)) Enabled screen orientation change handling
+((ci skip)) update version
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((ci skip)) update release note
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((ci skip)) update release note
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((WP8)) Fixed project compilation. 
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((ci skip)) res->Resources src->Classes for cpp template
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((ci skip)) update release note
+((ci skip)) fix warnings
+((ci skip)) remove unneeded Android.mk
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((ci skip)) remove dependence of CoreGraphics for on mac
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((CCLabel)) Apply updateContent() for getStringNumLines() when Label is dirty
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((cocos2d-x-3.3beta0)) Wrong includes in lots/all of cocostudio-classes?
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((Please Review)) Enable Dynamic Line Break in Cocos2d Games for iOS
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((ci skip)) fix warnings
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((3.0alpha1)) crash when evalString()
+((Important)) license or copyright issue on PNG file.
+((3.0rc1)) Exception：Run Cpp-empty-test in android.
+((v3.0stable)) ControlSwitch not displayed properly on Android device
+((3.0)) Performance issue with animated sprites (patch included)
+((AUTO)) : updating luabinding automatically
+((WP8)) [CocosDenshion] stopAllEffects() stops background music
+((Clang)) Warning due to CCBundle3DData.h
+((WP8)) Inconsistent behaviour
+((GENTOO)) cocos compile -p linux. glfw3.h not found
+((GENTOO)) cocos compile -p linux. SIZE_MAX, UINT32_MAX macros not found
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((c++, CocoStudio)) TextField for Password
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((ci skip)) remove protocolbuf-lite
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((ci skip)) remove duplicated codes
+((ci skip)) fix runtime error
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((win7 lua-tests)) The test case of Camera3DTest output a lot of message:"[LUA ERROR] [string ".\Camera3DTest/Camera3DTest.lua"]:146: attempt to call field '_or' (a nil value)"
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((win7 lua-tests)) Fail to enter ExtensionsTest-->CCControlButtonTest and output error message.
+((win7 lua-tests)) Don't see the expected behaviour in 'FastTiledMapTest-->TMX tile flip run time test'.
+((win7 lua-tests)) 'FontTest' output error message:"cocos2d: removeChildByTag(tag = 0): child not found!"
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((Mac)) Crash on the cpp-tests/Extensions/CocoStudioSceneTest/loadSceneEditorFile Test
+((Mac)) Sometimes touch event would be useless
+((MAC)) The display of cpp-tests/Node:Label - New API/New Lablel + .TTF has a error
+((MAC)) cpp-tests/Node: UI/GUI Dynamic Create Test/EditBox Test has a error display for Password
+((Mac)) The display of cpp-tests/GUI Dynamic Create Test/Test/UITextTest_LineWrap has a error
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((Mac)) cpp-tests/Performance tests/Texture Perf Test has a error
+((AUTO)) : updating luabinding automatically
+((Mac)) cpp-tests/Shader - Basic/ShaderToy Test have not effect
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((Android-CppTests)) 'CocoStudioSceneTest-->loadSceneEditorFile Test' crash when click 'change to load with binary file' button.
+((wp8)) template project crash
+((android-Mac)) template project crash
+((android-Mac)) template project crash
+((Mac)) lua-tests/LabelTest/Testing cc.LabelTTF Word Wrap error
+((Mac)) lua-tests/CocoStudioGuiTest/TextArea line wrap error
+((Mac)) lua-tests/Performance/PerformanceTextureTest error like cpp-tests
+((Android CppTests)) Don't see the expected behavior in 'ShaderTest-->ShaderToy Test'.
+((AUTO)) : updating luabinding automatically
+((Mac)) CPP template project crash
+((linux)) Wrong effect for Label old API Test case
+((AUTO)) : updating luabinding automatically
+((linux)) LuaTest->Camera3DTest no scene and actor in screen
+((lua-tests linux)) Can not Enter some test case in lua-tests
+((lua-tests linux)) No Effect in Zwoptex Tests
+((AUTO)) : updating luabinding automatically
+((LUA)) Add New AudioEngine on window
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((cpp-test all)) GUI Slider Editor Test 
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((ci skip)) Update release note
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((ci skip)) Update release note
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((Win7 CppTests)) Don't see the expected behavior in 'Node:Clipping-->Clipping to RenderTexture Test'.
+((ci skip)) update release note
+((Win7 LuaTests)) Don't see the expected behavior in 'Texture2DTest-->Texture2D:drawInRect' and 'Texture2DTest-->Texture2D:drawAtPoint'
+((ci skip)) update release note
+((ci skip)) remove unneeded codes
+((ci skip)) fix typo
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((WP8)) The project created by Cocos2dx-3.x cannot be launched on Windows Phone 8.1 devices
+((cocos2d-console)) Compile on win32 failure due to 'devenv' not found
+((WP8)) The orientation of app cannot be changed along with the orientation of emulator
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((branch:v3)) Invalid CMake path in set(CMAKE_MODULE_PATH)
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((cocos2d-x 3.3 RC0 bug)) UIImageView with scale9 enabled is upside down.
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((Android 5.0 simulator)) Audio-CocosDenshion->Control Music -> play -> stop ->play trigger error
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((Mac)) EditBox placeholder text not disappeared when inputing starts
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((Don't merge this PR)) Fix loading bar scale9 issue
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) : updating luabinding automatically
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((AUTO)) [ci skip]: updating cocos2dx_files.json
+((ci skip)) Update CocoStudioActionTimelineTest for Lua
+((iphone5s)) CocosStudioActionTimelineTest second test crash
+((v2.2.6 issue)) EditBox iOS8 orientation issue  + iphone6 display logic error
+((v2.2.6)) iOS project launch images are incomplete
+((AUTO)) : updating luabinding automatically
+((ci skip)) Update the reference of submodule cocos2d-console.
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((v2-window)) TestLua-->TitleMapTest-->TMX Ortho vertexZ:The sprite not hide behind the trees
+((v2-window)) TestLua-->TitleMapTest-->TMX title flip run time test : titles not flip
+((v2-window)) TestLua-->TitleMapTest-->TMX Orthogonal test:  Don't see the desired result.
+((v2-window)) TestLua-->Texture2DTest-->Texture Async Test Load : Don't see the expected behavior. 
+((v2-ios)) TestJavascript->CocoStudio Test->CocoStudioArmature Test-> Test CCArmature Nesting2->Change Mount
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
+((ci skip)) Fix Linux compile error for TestCpp
+((ci skip)) use java coding style
+((v3.3  iOS)) Console Custom Commands Test
+((v3.3 iOS)) Extension->TimelineTest->TestChangePlaySection
+((v3.3 Linux)) Console Test: The second test will crash
+((v3.3 Linux)) RenderTextureTest -> Clipping To RenderTexture
+((v3.3 Linux)) Label Old API Test-> testing labelTTF with Chinese character
+((v3.3 Linux)) Node::Node Test Regular expression crash
+((v3.3 Linux)) URL Open Test is not working.
+((v3.3 Linux)) Shader-Sprite
+((v3.3 Linux)) Shader-Basic
+((ci skip)) runtime's setSearchPaths failed
+((ci skip)) update release note
+((ci skip)) update runtime version
+((Bug)) PageView removePageAtIndex doesn't update _currentPageIndex
+((AUTO)) : updating luabinding automatically
+((AUTO)) : updating luabinding automatically
