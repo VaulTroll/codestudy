@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string>
+#include<algorithm>
 
 using namespace std;
 
@@ -125,10 +126,11 @@ int main(){
     //selectSort(arr1,n);
     //bubbleSort(arr1,n);
     //insertSort(arr1, n);
-    quickSort(arr1, 0, n-1);
+    //quickSort(arr1, 0, n-1);
     //
-    cout<<"최소값, 최대값: "<< arr1[0]<<", "<<arr1[n-1]<<endl;
+    //cout<<"최소값, 최대값: "<< arr1[0]<<", "<<arr1[n-1]<<endl;
 
+    
     //quickSelection(arr1, 0, n-1, 7);
     
     //

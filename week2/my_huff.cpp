@@ -134,7 +134,7 @@ int main(){
 
     text2 = decode(pq.top());    
     ofstream HdWriteFile("my_decode.txt");
-    HdWriteFile << text;
+    HdWriteFile << text2;
     HdWriteFile.close();
 
 
