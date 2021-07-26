@@ -36,7 +36,6 @@ void bfs(vector<string> &result, string s, multimap<string, string> mm, map<stri
         string tmp= q.front();
         q.pop();
 
-
         for(auto i = mm.lower_bound(tmp); i != mm.upper_bound(tmp); i++){
             string k = i->second;
             result.push_back(k);
@@ -74,19 +73,12 @@ int main(){
         }
     }
     rFile.close();
-/*
-    for(const auto &i : mm){
-        cout << i.first<<","<<i.second << endl;
-    }*/
+
 
     for(auto &i: mm){
         m.insert(make_pair(i.first, false));
     }
-/*
-    for(auto &o: m){
-        cout<<o.first<<","<<o.second<<endl;
-    }
-*/
+
     string start = "";
     start = mm.begin()->first;
 
